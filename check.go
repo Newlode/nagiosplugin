@@ -130,7 +130,7 @@ func (c Check) String() string {
 
 // ...
 func (c Check) Status() Status {
-	return c.Status.STatus()
+	return c.status
 }
 
 // Finish ends the check, prints its output (to stdout), and exits with
