@@ -1,8 +1,9 @@
 package nagiosplugin_test
 
 import (
-	"github.com/olorin/nagiosplugin"
 	"math"
+
+	"github.com/Newlode/nagiosplugin"
 )
 
 func ExampleExit() {

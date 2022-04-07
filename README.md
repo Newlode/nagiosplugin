@@ -6,7 +6,7 @@ Package for writing Nagios/Icinga/et cetera plugins in Go (golang).
 
 # Documentation
 
-See http://godoc.org/github.com/olorin/nagiosplugin. 
+See http://godoc.org/github.com/Newlode/nagiosplugin. 
 
 # Usage example
 
