@@ -128,6 +128,11 @@ func (c Check) String() string {
 	return value
 }
 
+// ...
+func (c Check) Status() Status {
+	return c.Status.STatus()
+}
+
 // Finish ends the check, prints its output (to stdout), and exits with
 // the correct status.
 func (c *Check) Finish() {
