@@ -89,3 +89,7 @@ type Result struct {
 	status  Status
 	message string
 }
+
+func (r Result) Status() Status {
+	return r.status
+}
